@@ -3,6 +3,7 @@ const program = require('commander');
 const axios = require('axios');
 const ora = require('ora');
 const Table = require('cli-table2');
+const colors = require('colors');
 
 program
   .version('0.0.6')
